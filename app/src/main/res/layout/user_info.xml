@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/user_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ranking"
+        android:id="@+id/ranking"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@+id/profile_pic"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:id="@+id/user_name"
+        android:layout_below="@+id/ranking"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#050505" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sex "
+        android:id="@+id/user_sex"
+        android:layout_below="@+id/user_name"
+        android:layout_alignLeft="@+id/user_name"
+        android:layout_alignStart="@+id/user_name"
+        android:layout_marginTop="30dp"
+        android:textColor="#050505" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/user_email"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/user_name"
+        android:layout_below="@+id/user_sex"
+        android:layout_marginTop="30dp"
+        android:textColor="#070707" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:id="@+id/change_password"
+        android:clickable="true"
+        android:onClick="onClick_changepassword"
+        android:layout_below="@+id/user_email"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@+id/user_name"
+        android:textColor="#070707" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ranking Points: "
+        android:id="@+id/community_points"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/change_password"
+        android:layout_alignLeft="@+id/user_name"
+        android:textColor="#090404" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/profile_pic"
+        android:longClickable="false"
+        android:background="@drawable/ninja_128"
+        android:clickable="true"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out?"
+        android:id="@+id/logout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/ranking"
+        android:layout_alignEnd="@+id/ranking"
+        android:clickable="true"
+        android:onClick="onClick_logout" />
+
+
+</RelativeLayout>

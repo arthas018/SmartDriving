@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "5672390073",
+    "project_id": "smart-driving-4c100"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5672390073:android:d1e6a8cc9978e3a9",
+        "android_client_info": {
+          "package_name": "com.smartdriving.smartdriving2blank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5672390073-7hpaohrkf5f8gdi2h58sl5nbpi57k2m6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartdriving.smartdriving2blank",
+            "certificate_hash": "38C54ABE1FA9F7C71269CE1DF53F7320AAF6006A"
+          }
+        },
+        {
+          "client_id": "5672390073-2tgtruq5hl3h889vfh2d6ll4j0rpj11q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8P4T9aaqZZowWOW5BAlPMaCiQbhNn8sw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-78584416-2"
+          }
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5672390073-2tgtruq5hl3h889vfh2d6ll4j0rpj11q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2,
+          "test_banner_ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+          "test_interstitial_ad_unit_id": "ca-app-pub-3940256099942544/1033173712"
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#b7353438"
+
+    tools:context=".MainActBlank"
+
+
+
+
+    >
+
+
+
+
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnLocation" />
+
+
+
+
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/btnPolice"
+        android:layout_alignBottom="@+id/btnPolice"
+
+
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="false"
+        android:onClick="onClick_profile"
+
+        android:background="#8888"
+
+        />
+
+    <Button
+        android:id="@+id/btnDriving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_Driving"
+
+        android:drawableBottom="@drawable/signal_48"
+        android:background="@android:color/transparent"
+
+
+        android:layout_marginBottom="31dp"
+        android:layout_above="@+id/btnPolice"
+        android:layout_alignRight="@+id/btnPolice"
+        android:layout_alignEnd="@+id/btnPolice" />
+
+    <Button
+        android:id="@+id/btnPolice"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:onClick="onClick_sharing_actv"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:drawableBottom="@drawable/see_share"
+        android:textSize="12dp"
+        android:background="#88837c7c"
+
+
+
+        />
+
+
+
+
+</RelativeLayout>

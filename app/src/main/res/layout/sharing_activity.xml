@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    >
+
+
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="30dp"
+            android:textAppearance="@color/switch_thumb_normal_material_dark"
+            android:text=" What do you want to share? "
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="25dp"
+          android:layout_centerInParent="true"
+
+
+            android:typeface="monospace"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textSize="16dp"
+            android:background="@drawable/textviewstyle"
+            />
+
+
+    <Button
+        android:id="@+id/Traffic"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:onClick="onClick_Traffic"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="35dp"
+
+        android:drawableBottom="@drawable/traffic_32"
+        android:background="@drawable/buttonshape"
+        android:cursorVisible="true"
+        />
+    <Button
+        android:id="@+id/Police_actv"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:onClick="onClick_Police_actv"
+
+        android:layout_below="@+id/Traffic"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="35dp"
+
+        android:drawableBottom="@drawable/police_small_visible3"
+        android:cursorVisible="true"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#0E3454"
+         />
+    <Button
+        android:id="@+id/Police_Hidding"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#0E3454"
+
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200dp"
+        android:layout_alignBaseline="@+id/Traffic"
+
+        android:onClick="onClick_Police_Hidding"
+        android:drawableBottom="@drawable/police_small_radar"
+        android:cursorVisible="true"
+        />
+
+
+
+    <Button
+        android:id="@+id/Road_Work"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:enabled="true"
+        android:onClick="onClick_Road_Work"
+
+        android:layout_below="@+id/Police_Hidding"
+        android:layout_marginLeft="200dp"
+        android:layout_alignBaseline="@+id/Police_actv"
+
+        android:drawableBottom="@drawable/construction_32"
+        android:cursorVisible="true"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#0E3454"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@color/switch_thumb_normal_material_dark"
+        android:textStyle="bold"
+        android:text=" Road Work "
+        android:textColor="#e3f7f6eb"
+        android:typeface="monospace"
+        android:id="@+id/textViewRoadWork"
+
+        android:layout_below="@+id/Road_Work"
+        android:layout_marginLeft="200dp"
+        android:textSize="10dp"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@color/switch_thumb_normal_material_dark"
+        android:textStyle="bold"
+        android:text="Police Hidding"
+        android:textColor="#e3f7f6eb"
+        android:typeface="monospace"
+        android:id="@+id/textViewPolice_Hidding"
+
+        android:layout_below="@+id/Police_Hidding"
+        android:layout_marginLeft="195dp"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@color/switch_thumb_normal_material_dark"
+        android:textStyle="bold"
+        android:text=" Traffic "
+        android:textColor="#e3f7f6eb"
+        android:typeface="monospace"
+        android:id="@+id/textViewTraffic"
+
+        android:layout_below="@+id/Traffic"
+        android:layout_marginLeft="38dp"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@color/switch_thumb_normal_material_dark"
+        android:textStyle="bold"
+        android:text="Police Visible"
+        android:textColor="#e3f7f6eb"
+        android:typeface="monospace"
+        android:id="@+id/textViewPolice_actv"
+
+        android:layout_below="@+id/Police_actv"
+        android:layout_marginLeft="28dp"
+        android:textSize="10dp"
+        />
+
+</RelativeLayout>

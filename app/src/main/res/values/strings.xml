@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SmartDriving2Blank</string>
+    <string name="action_settings">Settings</string>
+    <string name="traffic_button">Traffic</string>
+    <string name="police_actv_button">Police Actv</string>
+    <string name="police_hidding_button">Police Hidding</string>
+    <string name="road_work_button">Road Work</string>
+</resources>
